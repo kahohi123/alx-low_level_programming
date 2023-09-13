@@ -5,12 +5,11 @@
  * Return: void
  */
 
-void pint_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 
 char ch;
 int i;
-
 i = 0;
 while (i < 10)
 {
@@ -21,4 +20,5 @@ _putchar(ch);
 _putchar('\n');
 i++;
 }
+
 }
